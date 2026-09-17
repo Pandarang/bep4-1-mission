@@ -1,4 +1,4 @@
-package com.back.jpa.entity;
+package com.back.global.jpa.entity;
 
 import jakarta.persistence.MappedSuperclass;
 import lombok.Getter;
@@ -7,7 +7,6 @@ import java.time.LocalDateTime;
 
 @MappedSuperclass
 @Getter
-// 모든 엔티티들의 조상
 public abstract class BaseEntity {
     public abstract int getId();
 
