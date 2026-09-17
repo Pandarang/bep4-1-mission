@@ -1,4 +1,4 @@
-package com.back.boundedContext.post.entity;
+package com.back.boundedContext.post.domain;
 
 
 import com.back.boundedContext.member.domain.Member;
