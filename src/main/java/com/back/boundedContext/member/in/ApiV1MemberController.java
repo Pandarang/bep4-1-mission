@@ -13,7 +13,7 @@ public class ApiV1MemberController {
 
     private final MemberFacade memberFacade;
 
-    @GetMapping("/randomSecureTip")
+    @GetMapping("randomSecureTip")
     public String getRandomSecureTip() {
 
         return memberFacade.getRandomSecureTip();
